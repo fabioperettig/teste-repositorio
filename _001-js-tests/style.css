@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: antiquewhite;
+}
+
+button{
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
